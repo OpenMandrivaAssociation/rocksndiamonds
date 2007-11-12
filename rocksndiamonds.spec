@@ -1,5 +1,5 @@
 %define	name	rocksndiamonds
-%define version 3.2.3
+%define version 3.2.4
 %define rel	1
 %define release %mkrel %rel
 %define	Summary	A boulderdash like game
