@@ -15,7 +15,7 @@ Source13:	%{name}.48.png
 URL:		http://www.artsoft.org/rocksndiamonds/
 License:	GPL
 Group:		Games/Arcade
-BuildRequires:	SDL_image-devel SDL_mixer-devel SDL_net-devel XFree86-devel alsa-lib-devel esound-devel
+BuildRequires:	SDL_image-devel SDL_mixer-devel SDL_net-devel X11-devel alsa-lib-devel esound-devel
 BuildRequires:	libsmpeg-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
