@@ -15,7 +15,10 @@ Source13:	%{name}.48.png
 URL:		http://www.artsoft.org/rocksndiamonds/
 License:	GPL
 Group:		Games/Arcade
-BuildRequires:	SDL_image-devel SDL_mixer-devel SDL_net-devel X11-devel alsa-lib-devel esound-devel
+BuildRequires:	SDL-devel
+BuildRequires:	SDL_mixer-devel
+BuildRequires:	SDL_image-devel
+BuildRequires:	SDL_net-devel
 BuildRequires:	libsmpeg-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -31,7 +34,7 @@ If you know the game "Boulderdash" (Commodore C64) or "Emerald Mine"
 perl -pi -e 's!.*RO_GAME_DIR\s*=.*!RO_GAME_DIR = %{_gamesdatadir}/%{name}!; s!.*RW_GAME_DIR\s*=.*!RW_GAME_DIR = /var/games/%{name}!' Makefile
 
 %build
-OPTIONS="%optflags" make sdl
+make sdl OPTIONS="%optflags" CC="gcc %ldflags"
 
 %install
 rm -rf $RPM_BUILD_ROOT
