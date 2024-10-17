@@ -12,7 +12,7 @@ Source0:	http://www.artsoft.org/RELEASES/unix/rocksndiamonds/%{name}-%{version}.
 Source11:	%{name}.16.png
 Source12:	%{name}.32.png
 Source13:	%{name}.48.png
-URL:		http://www.artsoft.org/rocksndiamonds/
+URL:		https://www.artsoft.org/rocksndiamonds/
 License:	GPL
 Group:		Games/Arcade
 BuildRequires:	SDL-devel
