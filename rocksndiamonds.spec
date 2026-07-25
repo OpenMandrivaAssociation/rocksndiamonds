@@ -1,7 +1,7 @@
 %define	name	rocksndiamonds
 %define version 3.2.6.1
 %define rel	6
-%define release %mkrel %rel
+%define release %rel.1
 %define	Summary	A boulderdash like game
 
 Name:		%{name}
@@ -155,7 +155,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
-* Wed Aug 23 2006 Götz Waschk <waschk@mandriva.org> 3.1.1-4mdv2007.0
+* Wed Aug 23 2006 Gï¿½tz Waschk <waschk@mandriva.org> 3.1.1-4mdv2007.0
 - xdg menu
 - fix buildrequires
 
@@ -177,7 +177,7 @@ rm -rf $RPM_BUILD_ROOT
 * Wed Aug 18 2004 Laurent MONTEL <lmontel@mandrakesoft.com> 3.1.0-3mdk
 - REbuild with new menu
 
-* Thu Jul 08 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 3.1.0-2mdk
+* Thu Jul 08 2004 Per ï¿½yvind Karlsen <peroyvind@linux-mandrake.com> 3.1.0-2mdk
 - fix buildrequires
 
 * Thu Jul  8 2004 Michael Scherer <misc@mandrake.org> 3.1.0-1mdk
@@ -186,7 +186,7 @@ rm -rf $RPM_BUILD_ROOT
 * Fri May 14 2004 Michael Scherer <misc@mandrake.org> 3.0.8-1mdk
 - New release 3.0.8
 
-* Thu Oct 16 2003 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 3.0.6-1mdk
+* Thu Oct 16 2003 Per ï¿½yvind Karlsen <peroyvind@linux-mandrake.com> 3.0.6-1mdk
 - 3.0.6
 - cosmetics
 
@@ -196,7 +196,7 @@ rm -rf $RPM_BUILD_ROOT
 * Wed Aug 13 2003 Guillaume Cottenceau <gc@mandrakesoft.com> 3.0.0-1mdk
 - new version
 
-* Mon Jul 21 2003 Per Øyvind Karlsen <peroyvind@sintrax.net> 2.0.0-11mdk
+* Mon Jul 21 2003 Per ï¿½yvind Karlsen <peroyvind@sintrax.net> 2.0.0-11mdk
 - rebuild
 - convert xpm icons to png icons
 - change summary macro to avoid possible conflicts if we were to build debug package
